@@ -83,7 +83,26 @@ footer {
 
 /* ADDITIONAL STYLES*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+article,
+section,
+aside,
+img {
+    margin: 0px;
+    padding: 0px;
+}
 
+ul {
+    margin: 0px;
+}
 
 
 /* FOOTER */
