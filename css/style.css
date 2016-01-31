@@ -49,9 +49,6 @@ body {
 
 /* LAYOUT*/
 
-
-/* Center the container */
-
 /* Center the container */
 
 #container {
@@ -86,8 +83,13 @@ footer {
 
 /* ADDITIONAL STYLES*/
 
-body { width:500px; margin:0 auto; }
-.clear-parent { overflow:hidden;  }
+body { 
+  margin:0 auto; 
+}
+
+.clear-parent { 
+  overflow:hidden;  
+}
 
 header { 
   width:100%; 
