@@ -184,6 +184,30 @@ header nav a:hover {
 header nav a:active {
     color: #f9e42e;
 }
+
+#articles {
+    width: 700px;
+}
+
+article p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #606060;
+}
+
+article p::first-letter {
+    float: left;
+    font-size: 300%;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+article div {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    color: #033048;
+}
 /* FOOTER */
 
 footer {
