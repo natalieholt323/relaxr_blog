@@ -45,7 +45,6 @@ Developer @GA in NYC
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     background: #fff;
-    display: inline-block;
 }
 
 /* LAYOUT*/
@@ -59,11 +58,10 @@ body {
 
 header {
     width: 100%;
+    background-color: #033048;
+    background: url(../images/header_bg.jpg) no-repeat;
     background-size: 100%;
-    background-size: cover;
-    background: #033048;
-    background-image: url(../images/header_bg.jpg);
-    background-position: center bottom;
+    /*background-position: center bottom;*/
     padding: 23px 120px;
 }
 
@@ -191,7 +189,7 @@ header nav a:active {
 }
 
 #articles {
-    width: 500px;
+    width: 700px;
 }
 
 article p {
@@ -233,6 +231,7 @@ aside {
     width: 300px;
     color: #033048;
     float: right;
+    margin-bottom: 20px;
 }
 
 #categories nav a {
@@ -264,6 +263,7 @@ aside h4 {
 #about {
     margin-bottom: 40px;
 }
+
 /* FOOTER */
 
 footer {
