@@ -94,6 +94,7 @@ h6,
 p,
 a,
 div,
+button,
 article,
 section,
 aside,
@@ -198,6 +199,9 @@ article p {
     color: #606060;
 }
 
+p.more {
+    display: none;
+}
 article p::first-letter {
     float: left;
     font-size: 300%;
